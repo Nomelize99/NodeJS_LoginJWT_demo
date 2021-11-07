@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const { MONGO_URI } = process.env;
+const { MONGO_URI } = process.env || 'mongodb://mongo:27017/AuthTest' ;
 
 exports.connect = () => {
   mongoose.connect(MONGO_URI, 
