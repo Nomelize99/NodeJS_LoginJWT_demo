@@ -15,5 +15,5 @@ app.use(userRoute);
 app.all('/',auth,(req,res) =>{
     res.status(200).send('U can do it (login-with-Auth)');
 })
-
+console.log(port);
 app.listen(port, () => console.log(`Server Running in port ${port} `));

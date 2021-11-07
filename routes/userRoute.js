@@ -6,6 +6,6 @@ userRouter.post('/login',userController.login);
 userRouter.post('/register', userController.signup);
 userRouter.get('/logout',auth,userController.logout);
 
-//getall for check user
+//getall check user
 userRouter.get('/user',userController.getalluser);
 module.exports = userRouter;
