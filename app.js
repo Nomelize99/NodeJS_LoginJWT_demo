@@ -5,7 +5,7 @@ require("./config/database").connect();
 const userRoute = require('./routes/userRoute');
 const auth = require('./middleware/auth');
 const { API_PORT } = process.env;
-const port = process.env.PORT || API_PORT;
+const port = 3000 || API_PORT;
 const app = express();
 
 app.use(express.json());
