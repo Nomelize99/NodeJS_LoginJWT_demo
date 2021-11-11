@@ -4,6 +4,7 @@
 #### Start
 <code>npm run start</code>
 #### Docker
+##### Comment .env for use docker
 <code>docker-compose up --build</code>
 
 #### Register (/register)
