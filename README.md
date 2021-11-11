@@ -1,13 +1,13 @@
 # NodeJS_LoginJWT_example
-#### How to set up ?
+### How to set up ?
 <code>npm install</code>
-#### Start
+then edit <code>.env</code> MONGO_URI change mongo to localhost
+### Start
 <code>npm run start</code>
-#### Docker
-##### Comment .env for use docker
+### Docker
 <code>docker-compose up --build</code>
 
-#### Register (/register)
+### Register (/register)
 ``` bash
 {
   "firstname": "jiratheep",
@@ -18,14 +18,14 @@
 }
 ```
 
-#### Login (/login)
+### Login (/login)
 ``` bash
 {
  "username":"nomelize",
  "password":"12345678"
 }
 ```
-#### Main Page (/)
-##### Input token when you login on header Key = <code>x-access-token</code> and value = <code>token when you loging in</code>. This page will show "U can do it (login-with-Auth)" if it's correct. 
+### Main Page (/)
+#### Input token when you login on header Key = <code>x-access-token</code> and value = <code>token when you loging in</code>. This page will show "U can do it (login-with-Auth)" if it's correct. 
 
 
